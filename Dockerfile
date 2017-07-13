@@ -1,6 +1,10 @@
 FROM alpine:edge
 
 RUN apk add --no-cache \
+    git \
+    tar \
+    gzip \
+    ca-certificates \
     docker \
     python3 \
     openssh \
